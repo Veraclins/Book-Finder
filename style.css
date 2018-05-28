@@ -1,0 +1,7 @@
+body { 
+    padding-top: 50px; 
+}
+
+.book-item {
+    border: 1px solid grey;
+}

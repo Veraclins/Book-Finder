@@ -1,7 +1,3 @@
-const title = document.getElementById('title');
-const description = document.getElementById('describe'); // Get the list where we will place our authors
-const url = 'https://fakerestapi.azurewebsites.net/api/Books'; // Get 10 random user
-
 function addImage(id, url) {
   var item = document.createElement('DIV');
   var pic = document.createElement('IMG');

@@ -1,4 +1,4 @@
-function addBook(title, description) {
+function getBookItem(title, description) {
     // this will be the
     var item = document.createElement('DIV');
     var titleText = document.createTextNode(title);
@@ -17,7 +17,7 @@ fetch('https://fakerestapi.azurewebsites.net/api/Books')
     for (var i = 0; i <= 10; i++) {
         let title = data[i].Title;
         let descr = data[i].Description;
-        let item =  addBook(title, descr);
+        let item =  getBookItem(title, descr);
         document.getElementById('listing').appendChild(item);
     }
 })
